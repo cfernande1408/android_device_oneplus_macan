@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-USE_PREBUILT_KERNEL ?= true
+USE_PREBUILT_KERNEL ?= false
 
 # Partitions
 BOARD_SUPER_PARTITION_SIZE := 16231956480
@@ -24,7 +24,7 @@ TARGET_SCREEN_DENSITY := 540
 ifeq ($(USE_PREBUILT_KERNEL), true)
 include device/oneplus/macan-kernel/BoardConfig.mk
 else
-TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_MACAN_DTB=y
+TARGET_KERNEL_BAZEL_FLAGS += --//vendor/oneplus/sm8850:dtbo_config=//vendor/oneplus/sm8850-devicetrees:macan_dtbo_config
 endif
 
 # Properties
