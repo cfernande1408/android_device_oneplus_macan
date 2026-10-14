@@ -1810,3 +1810,6 @@ odm/etc/wifi/wcn7750/bdwlan.b0i
 odm/etc/wifi/wcn7750/bdwlan.elf
 odm/etc/wifi/wcn7750/regdb.bin
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+
+# Face unlock
+odm/lib64/libstfaceunlockocl_uff.so;FIX_SONAME

@@ -74,3 +74,7 @@ $(call inherit-product, device/oneplus/sm8850-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/macan/macan-vendor.mk)
+
+# Face unlock
+PRODUCT_PACKAGES += \
+    libstfaceunlockocl_uff
