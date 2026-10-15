@@ -318,4 +318,7 @@
          booted.  -->
     <integer name="config_stableDeviceDisplayWidth">1272</integer>
     <integer name="config_stableDeviceDisplayHeight">2800</integer>
+
+    <!-- Shift status/navigation bar icons to reduce OLED burn-in -->
+    <bool name="config_enableBurnInProtection">true</bool>
 </resources>
