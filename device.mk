@@ -78,3 +78,7 @@ $(call inherit-product, vendor/oneplus/macan/macan-vendor.mk)
 # Face unlock
 PRODUCT_PACKAGES += \
     libstfaceunlockocl_uff
+
+# Audio calibration (AGM looks up /vendor/etc/acdbdata/<card>)
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/macan/proprietary/odm/etc/acdbdata/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/alor_mtp/acdb_cal.acdb
