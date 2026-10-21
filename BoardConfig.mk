@@ -31,3 +31,6 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/macan/BoardConfigVendor.mk
+
+# Reboot on kernel panic instead of hanging in crash dump mode
+BOARD_KERNEL_CMDLINE += qcom_dload_mode.download_mode=0
