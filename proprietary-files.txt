@@ -631,7 +631,6 @@ odm/etc/camera/livephoto_coverenhancer/libs/libQnnHtpV81Skel.so
 odm/etc/camera/livephoto_coverenhancer/libs/libQnnHtpV81Stub.so
 odm/etc/camera/livephoto_coverenhancer/libs/libQnnSystem.so
 odm/etc/camera/livephoto_coverenhancer/libs/libsharebuffer.so
-odm/etc/camera/livephoto_coverenhancer/libs/libstface_fd_api.so
 odm/etc/camera/livephoto_coverenhancer/libs/libtrace.so
 odm/etc/camera/livephoto_coverenhancer/libs/libzlib.so
 odm/etc/camera/livephoto_coverenhancer/models/RRDBNet_sm8850l.bin
