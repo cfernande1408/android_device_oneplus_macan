@@ -6,4 +6,7 @@
 <resources>
     <!-- Do not translate. Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">OnePlus 15R</string>
+
+    <!-- Match stock: do not upgrade the softap config to bridged mode -->
+    <bool name="config_wifiSoftapAutoUpgradeToBridgedConfigWhenSupported">false</bool>
 </resources>
